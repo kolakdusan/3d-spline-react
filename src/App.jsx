@@ -1,10 +1,10 @@
-import Spline from "@splinetool/react-spline";
-import styled from "styled-components";
+import Spline from '@splinetool/react-spline'
+import styled from 'styled-components'
 
-import Logo from "./images/logo.svg";
-import IconTwitter from "./images/icon-twitter.svg";
-import IconYoutube from "./images/icon-youtube.svg";
-import IconLaptop from "./images/icon-laptop.svg";
+import Logo from './images/logo.svg'
+import IconTwitter from './images/icon-twitter.svg'
+import IconYoutube from './images/icon-youtube.svg'
+import IconLaptop from './images/icon-laptop.svg'
 
 export default function App() {
   return (
@@ -38,7 +38,7 @@ export default function App() {
           Bring your team together and build community by using our
           cross-platform app that lets you collaborate via chat, voic and by
           sharing and storing unlimited media files. A world of topics is
-          waiting for you. Join the private beta.
+          waiting for you. Join our private beta.
         </p>
         <button>
           <img src={IconLaptop} alt="Download" />
@@ -51,11 +51,11 @@ export default function App() {
         <img src={IconYoutube} alt="youtube" />
       </Social>
     </Wrapper>
-  );
+  )
 }
 
 const Wrapper = styled.div`
-  font-family: "Spline Sans", sans-serif;
+  font-family: 'Spline Sans', sans-serif;
   font-size: 16px;
   color: white;
   margin: 0 auto;
@@ -73,7 +73,7 @@ const Wrapper = styled.div`
     height: 100%;
     width: 130vw;
   }
-`;
+`
 
 const Content = styled.div`
   position: absolute;
@@ -82,7 +82,7 @@ const Content = styled.div`
   flex-direction: column;
   gap: 80px;
   h1 {
-    font-family: "Spline Sans Mono", monospace;
+    font-family: 'Spline Sans Mono', monospace;
     font-weight: bold;
     font-size: 70px;
     margin: 0;
@@ -121,7 +121,7 @@ const Content = styled.div`
       border: 1px solid rgba(255, 255, 255, 0.8);
     }
   }
-`;
+`
 
 const Menu = styled.ul`
   display: flex;
@@ -146,7 +146,7 @@ const Menu = styled.ul`
       }
     }
   }
-`;
+`
 
 const Social = styled.div`
   position: absolute;
@@ -168,4 +168,4 @@ const Social = styled.div`
       #aa0eb2 100%
     );
   }
-`;
+`
