@@ -2,6 +2,10 @@
 
 Don't panic, the 3d model should load in a few seconds :)
 
+# Usage:
+
+You can scroll to zoom in the model and also click and drag to rotate it. You can also hover on some elements to make them float.
+
 ## Available Scripts
 
 In the project directory, you can run:
